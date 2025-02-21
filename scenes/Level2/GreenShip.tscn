@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dapa8hhvsm1ws"]
+
+[ext_resource type="Texture2D" uid="uid://3ruxfsvp87ub" path="res://assets/playerShip1_green.png" id="1_ul5bs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0aowm"]
+radius = 39.0128
+
+[node name="GreenShip" type="RigidBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ul5bs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0aowm")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bm58urxspg8a"]
+
+[ext_resource type="PackedScene" uid="uid://cwlm7y3vi2cox" path="res://scenes/Level2/SnowPlatform.tscn" id="1_evrj4"]
+[ext_resource type="PackedScene" uid="uid://dapa8hhvsm1ws" path="res://scenes/Level2/GreenShip.tscn" id="1_qqrlp"]
+[ext_resource type="Script" path="res://scenes/Level2/green_ship.gd" id="2_yq33r"]
+
+[node name="Level2" type="Node"]
+
+[node name="GreenShip" parent="." instance=ExtResource("1_qqrlp")]
+position = Vector2(105, 520)
+script = ExtResource("2_yq33r")
+
+[node name="StandingPlatform" type="Node2D" parent="."]
+
+[node name="SnowPlatform" parent="StandingPlatform" instance=ExtResource("1_evrj4")]
+position = Vector2(108, 614)
+
+[node name="SnowPlatform2" parent="StandingPlatform" instance=ExtResource("1_evrj4")]
+position = Vector2(38, 614)
+
+[node name="SnowPlatform3" parent="StandingPlatform" instance=ExtResource("1_evrj4")]
+position = Vector2(179, 613)
