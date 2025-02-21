@@ -23,4 +23,11 @@ BlueShip terjatuh karena tidak ada collision yang terjadi dengan platform
 Sesuai dengan namanya, mengubah atribut Position berarti mengubah posisi dari BlueShip, mengubah Rotation berarti mengubah rotasi dari BlueShip, dan mengubah atribut Scale berarti mengubah ukuran dari BlueShip
 
 ## Pada scene MainLevel, perhatikan nilai atribut Position node PlatformBlue, StonePlatform, dan StonePlatform2. Mengapa nilai Position node StonePlatform dan StonePlatform2 tidak sesuai dengan posisinya di dalam scene (menurut Inspector) namun visualisasinya berada di posisi yang tepat?
-Position dari PlatformBlue merupakan posisi sesungguhnya pada scene mainLevel. Sementara itu, posisi StonePlatform dan StonePlatform2 merupakan posisi relative dari kedua object terhadap PlatformBlue
+Position dari PlatformBlue merupakan posisi sesungguhnya pada scene mainLevel. Sementara itu, posisi StonePlatform dan StonePlatform2 merupakan posisi relative dari kedua object terhadap P
+
+## Pada Level baru:
+	- Membuat pesawat baru
+	- Membuat landasan baru
+	- ObjectiveArea (Logo Godot) yang berada dipojok kanan atas yang dimana akan menutup game dan mencetak pesan "You Win!!!"
+	- Menambahkan meteor yang jika tersentuh maka akan mereset scene
+	- Menambahkan border agar tidak keluar dari area permainan
