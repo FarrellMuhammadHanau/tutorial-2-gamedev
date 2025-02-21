@@ -31,3 +31,4 @@ Position dari PlatformBlue merupakan posisi sesungguhnya pada scene mainLevel. S
 	- ObjectiveArea (Logo Godot) yang berada dipojok kanan atas yang dimana akan menutup game dan mencetak pesan "You Win!!!"
 	- Menambahkan meteor yang jika tersentuh maka akan mereset scene
 	- Menambahkan border agar tidak keluar dari area permainan
+	- Menambahkan transisi ke level 2 ketika BlueShip mencapai ObjectiveArea
